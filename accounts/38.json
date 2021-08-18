@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "cloud-team-drive",
+  "private_key_id": "72365249f55df9b4a5c5375514c8988186c0698b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDNRj0KuX4n0L0p\nSJDKe0NXBrCfYOVQjljXCcFDVVUGZoqn0T9qnyznuJWb4SMTRiG/z0MjtCirRst6\nuuuW7gFD7c73kiyOcyTcT+u+ROy8Rn/PAsZDGD3gvT6I+Quf6rewzAxi0Lp3OP61\no+6vIAH+rR+HTk8WBXhb05EVv39zB46tsBk4QAk14XfbDNroEFbgRWo23BIa+eBl\nf9QlAnG3p1xOKOrGeiv+ux2y/jXQxMDTEUUwrGxyFqFE6SR7Odv72J4hw8BQRoqT\np1XOwungNs5p3rQd+/0hnbeMwE5Da/U/hMjXqi/RYvYrqjTAaE/7tAc9/KCcflKN\nFNjsNawXAgMBAAECggEAB0AwQIRc0phNrXtE4gT89tmdpPfq295OOtu7K4IQHg7Z\n6d3GpMQKmJBneHOKpf6MLkUwSTNL6BgnWUlcmPvWeck75Y/iDTScuW5h/Voti0Gv\nVPLE3gnYFD097sio37sCusKGAdeKsvWRJsOItD+cdVYd97XqOZfQmUUGZGBy5pJL\nY1Fobf73KF5ue0vGXon0zvLUco/LLbt0A6nFBBiPzXu0DbmPZS3kgsG6vbOrYmo8\ncPXGJnxjkK7i+7dkMdyTTVQt6A5CL2qObPI47VR/lUFtFfq+O+n0aGxsNf6A2bHO\nm/Hk+FOU36Wktk6GB1Efnu1UvjRz6ULUB4Oy+OkzgQKBgQDpDLZN7cWvFhF6gl/e\n74OmLgx8URCBOt3yVfQTr5W9Y8AWVZ4nZkXlskaVH402Kkkc8+tktHYGsSyVamB9\nD0tx3W52sK68UUv2JP3J++/iT+UiUf81FrnoPyPYuLw2orjxtFuv3NHnblgpTmBK\nbailuZnk5IO8exrhVLjkLAcA/wKBgQDhfUx2BgVSzG9IRj/mzc6C/m1QY0Z3p1Fh\nu4DRqjYlTZBnHB0Ool/CfKo2w41E8v28sSPNwdKun204SIl31Lkp41ukHkOTkxWF\nNMNwC5GpbkRiU6Y/o6sVgaFUjDdKmMPKIDeNwYUHSTAedqCeelUOOUU9TcIq6v+H\nj6cfMGY86QKBgHa6TzYsaIXmjEkJmqYNB9jlpN7AvdPYlbIcMBjHX1X5N6cpP0V7\nSSjYRjU6ucpaiJ0Dd2z6sxZ9tOT6KOYNoLYFxX0aTisKj9R6zADXJUL6yRVPCOGX\nDmdPo4eJtflvtSEObZeOvDFXefqxP0Ur0Lt9bvW5pZOkc/FQJFG6TGcpAoGBALC8\nS7zJ9Uwzbhmg7h8SOoXTs4xpc2b/XrsSguJS3gOY6tDWaTP6MsI2ghdQaJ6dMiG+\nWcjA3Uf/L1UJDa49ri/VwxM8oUy+4QQ6GeDtQGsjQTgsRkblGohNxUyGZiPy3qrD\nW6ehAYp3Y97MrhHo4le2rb1iAAkxjb0L7Dp27ftZAoGAcXDW+LePLRTtRnzymuff\n/4uUmnH4NPeHXordSZQ46BFWwy/fcenTJisNHJx3W3Ar6IrxMwHcHK5exKVicuDd\nQHy8Min524sQHYQL3tPtXmfnW/hq86G1hyppiJUeViq62FyvM1NkHmtKlI2KA/4m\nkEJ7VMIEzBmUVdUY4fzp3GI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "mfc-yw7kqmu9eavykqpr42ugqwv-25@cloud-team-drive.iam.gserviceaccount.com",
+  "client_id": "108214152839715586147",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mfc-yw7kqmu9eavykqpr42ugqwv-25%40cloud-team-drive.iam.gserviceaccount.com"
+}
