@@ -205,7 +205,7 @@ input[type="submit"]:hover, input[type="submit"]:focus{
         </a>
       </div>
       <div class="social">
-        <a href="https://github.com/breakdowns/slam-mirrorbot"><i class="fab fa-github"></i></a>
+        <a href="https://github.com/SlamDevs/slam-mirrorbot"><i class="fab fa-github"></i></a>
         <a href="https://t.me/SlamMirrorUpdates"><i class="fab fa-telegram"></i></a>
       </div>
     </header>
@@ -239,14 +239,15 @@ input[type="submit"]:hover, input[type="submit"]:focus{
         });
       });
 
+      if(document.getElementsByTagName("ul").length >= 10){
       var labels = document.querySelectorAll("label");
       //Shorting the file/folder names
       labels.forEach(function (label) {
-        if (label.innerText.toString().split(" ").length != 4) {
+        if (label.innerText.toString().split(" ").length >= 6) {
           let FirstPart = label.innerText
             .toString()
             .split(" ")
-            .slice(0, 2)
+            .slice(0, 3)
             .join(" ");
           let SecondPart = label.innerText
             .toString()
@@ -255,7 +256,21 @@ input[type="submit"]:hover, input[type="submit"]:focus{
             .join(" ");
           label.innerText = `${FirstPart}... ${SecondPart}`;
         }
+        if (label.innerText.toString().split(".").length >= 6) {
+          let first = label.innerText
+            .toString()
+            .split(".")
+            .slice(0, 3)
+            .join(" ");
+          let second = label.innerText
+            .toString()
+            .split(".")
+            .splice(-3)
+            .join(".");
+          label.innerText = `${first}... ${second}`;
+        }
       });
+     }
     </script>
 
 <script>
@@ -515,7 +530,7 @@ section span{
         </a>
       </div>
       <div class="social">
-        <a href="https://github.com/breakdowns/slam-mirrorbot"><i class="fab fa-github"></i></a>
+        <a href="https://github.com/SlamDevs/slam-mirrorbot"><i class="fab fa-github"></i></a>
         <a href="https://t.me/SlamMirrorUpdates"><i class="fab fa-telegram"></i></a>
       </div>
     </header>
@@ -633,7 +648,7 @@ async def re_verfiy(paused, resumed, client, torr):
         else:
             break
         k += 1
-        if k >= 4:
+        if k > 4:
             return False
     return True
 
@@ -689,7 +704,7 @@ async def set_priority(request):
 @routes.get('/')
 async def homepage(request):
 
-    return web.Response(text="<h1>See slam-mirrorbot <a href='https://github.com/breakdowns/slam-mirrorbot'>@GitHub</a> By <a href='https://github.com/breakdowns'>Breakdowns</a></h1>", content_type="text/html")
+    return web.Response(text="<h1>See slam-mirrorbot <a href='https://github.com/SlamDevs/slam-mirrorbot'>@GitHub</a> By <a href='https://github.com/SlamDevs'>SlamDevs</a></h1>", content_type="text/html")
 
 
 async def e404_middleware(app, handler):
